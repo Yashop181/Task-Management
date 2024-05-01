@@ -33,7 +33,7 @@ Our system boasts several key features that enhance productivity and user experi
 
 To get started with our task management system:
 
-1. Clone the repository using Git ``.
+1. Clone the repository using Git `https://github.com/Yashop181/Task-Management.git`.
 2. Install dependencies using `npm install`.
 3. Start the Frontend development server using `npm start`.
 4. Start the Backend server using `nodemon app.js`.
