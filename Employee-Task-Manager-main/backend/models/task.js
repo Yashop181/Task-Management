@@ -26,6 +26,6 @@ taskSchema.virtual('formattedEnddate').get(function () {
   return moment(this.enddate).format('DD MMMM YYYY');
 });
 
-const Task = mongoose.model('task', taskSchema);
+const Task = mongoose.model('Task', taskSchema);
 
 module.exports = Task;

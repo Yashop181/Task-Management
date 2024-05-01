@@ -56,7 +56,7 @@ router.get("/api/v1/export", async (req, res) => {
 
     // Add employee data
     employees.forEach((employee) => {
-      const tasks = employee.tasks.map((task) => task.title).join(", ");
+      const tasks = employee.tasks.map((task) => task.title).join(",");
       worksheet.addRow([employee.name, tasks]);
     });
 
